@@ -1,0 +1,48 @@
+:root {
+  --value9: hsl(0, 0%, 100%);
+  --value8: hsl(0, 0%, 99%);
+  --value7: hsl(0, 0%, 90%);
+  --value6: hsl(0, 0%, 85%);
+  --value5: hsl(0, 0%, 80%);
+
+  --value4: hsl(0, 0%, 44%);
+  --value3: hsl(0, 0%, 33%);
+  --value2: hsl(0, 0%, 22%);
+  --value1: hsl(0, 0%, 11%);
+  --value0: hsl(0, 0%, 1%);
+}
+
+header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 3em;
+  box-shadow: 1px 1px 3px 3px var(--value4);
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  list-style: none;
+}
+
+header li {
+  margin-left: 1.25em;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--value1);
+}
+
+header a:hover {
+  cursor: pointer;
+}
+
+header a:visited {
+  text-decoration: none;
+}

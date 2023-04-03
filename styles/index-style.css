@@ -1,0 +1,31 @@
+@import url(./header-style.css);
+@import url(./main-style.css);
+@import url(./footer-style.css);
+
+:root {
+  --value9: hsl(0, 0%, 100%);
+  --value8: hsl(0, 0%, 99%);
+  --value7: hsl(0, 0%, 90%);
+  --value6: hsl(0, 0%, 85%);
+  --value5: hsl(0, 0%, 80%);
+
+  --value4: hsl(0, 0%, 44%);
+  --value3: hsl(0, 0%, 33%);
+  --value2: hsl(0, 0%, 22%);
+  --value1: hsl(0, 0%, 11%);
+  --value0: hsl(0, 0%, 1%);
+}
+
+body {
+  display: grid;
+  grid-template-rows: 7em auto 5em;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-gap: 3em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}

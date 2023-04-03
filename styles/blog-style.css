@@ -1,0 +1,42 @@
+@import url(./header-style.css);
+@import url(./footer-style.css);
+
+body {
+  display: grid;
+  grid-template-rows: 7em auto 5em;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  grid-gap: 3em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0 auto;
+}
+
+.blog-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.blog-info span {
+  margin-right: 2em;
+}
+
+article {
+  padding: 0 5em;
+}

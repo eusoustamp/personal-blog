@@ -1,0 +1,36 @@
+:root {
+  --value9: hsl(0, 0%, 100%);
+  --value8: hsl(0, 0%, 99%);
+  --value7: hsl(0, 0%, 90%);
+  --value6: hsl(0, 0%, 85%);
+  --value5: hsl(0, 0%, 80%);
+
+  --value4: hsl(0, 0%, 44%);
+  --value3: hsl(0, 0%, 33%);
+  --value2: hsl(0, 0%, 22%);
+  --value1: hsl(0, 0%, 11%);
+  --value0: hsl(0, 0%, 1%);
+}
+
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--value2);
+  color: var(--value8);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--value6);
+}
+
+footer a:hover {
+  cursor: pointer;
+}
+
+footer a:visited {
+  text-decoration: none;
+}
